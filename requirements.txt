@@ -27,3 +27,9 @@ rustworkx
 pydot
 graphviz
 openfermionpyscf; sys_platform == 'linux'
+qiskit
+qiskit-ibm-runtime
+qiskit[visualization]
+qiskit-aer
+openfermion[cirq]
+
