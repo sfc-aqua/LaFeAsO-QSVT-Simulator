@@ -173,8 +173,8 @@ def build_cirq_circuit_from_qubit_operator(qubit_op: QubitOperator, t: float = 1
 
 if __name__ == "__main__":
     
-    N_cells = 1
-    qubits_per_cell = 10
+    N_cells = 100
+    qubits_per_cell = 20
 
     # Build Hamiltonian
     ferm_op = build_lafeaso_effective_hamiltonian(N_cells, qubits_per_cell)
